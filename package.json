@@ -1,0 +1,64 @@
+{
+  "name": "@enzoxavier/jawascript",
+  "version": "1.0.0",
+  "description": "Gunakake JavaScript nganggo basa Jawa",
+  "directories": {
+    "contoh": "examples",
+    "lib": "lib"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "fs-extra": "^11.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.2",
+    "typescript": "^5.2.2",
+    "@types/fs-extra": "^11.0.4",
+    "chalk": "^5.4.1"
+  },
+  "main": "lib/index.js",
+  "exports": {
+    ".": {
+      "types": "./types/index.d.ts",
+      "default": "./lib/index.js"
+    }
+  },
+  "types": "./types/index.d.ts",
+  "files": [
+    "src/**/*.ts",
+    "lib/**/*.js",
+    "types/**/*.d.ts",
+    "types/**/*.d.ts.map"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "start": "node lib/index.js",
+    "uji": "echo \"Kesalahan: durung ono uji coba\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HansCuls/jawa-js.git"
+  },
+  "keywords": [
+    "jawa-js",
+    "@enzoxavier/jawascript",
+    "basa jawa",
+    "javascript jawa",
+    "javanese",
+    "jawascript",
+    "jawa"
+  ],
+  "author": {
+    "name": "Farhan Habibullah Nur Afan",
+    "email": "hansculs@gmail.com",
+    "url": "https://t.me/enzo_not_found"
+  },
+  "license": "MIT",
+  
+  "bugs": {
+    "url": "https://github.com/HansCuls/jawa-js/issues"
+  },
+  "homepage": "https://github.com/HansCuls/jawa-js#readme"
+}
